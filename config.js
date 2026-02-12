@@ -42,9 +42,9 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much??",  // Shows when they go past 5000%
-        high: "To infinity and beyond!",              // Shows when they go past 1000%
-        normal: "And beyond!"                           // Shows when they go past 100%
+        extreme: "嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻",  // Shows when they go past 5000%
+        high: "嘻嘻嘻嘻嘻嘻",              // Shows when they go past 1000%
+        normal: "嘻嘻"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
@@ -57,7 +57,7 @@ const CONFIG = {
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
+        backgroundStart: "#e3bbfa",      // Gradient start (try pastel colors for a soft look)
         backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
         buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
         buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
@@ -69,7 +69,7 @@ const CONFIG = {
     animations: {
         floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
         floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
-        bounceSpeed: "0.7s",            // Speed of bouncing animations (0.3-0.7s recommended)
+        bounceSpeed: "1.0s",            // Speed of bouncing animations (0.3-0.7s recommended)
         heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
@@ -81,7 +81,7 @@ const CONFIG = {
         musicUrl: "https://res.cloudinary.com/dnqee27xv/video/upload/v1770879124/ING_Love-ingOfficial_Music_Video_tltmxi.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
-        volume: 0.3                        // Volume level (0.0 to 1.0)
+        volume: 0.2                        // Volume level (0.0 to 1.0)
     }
 };
 
