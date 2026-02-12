@@ -14,7 +14,7 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '👋', '💗', '🐽'],  // Heart emojis
+        hearts: ['❤️', '👋', '💗', '🐽'],  // Heart emojis
         bears: ['🐹', '🦝']                       // Cute bear emojis
     },
 
@@ -42,8 +42,8 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻",  // Shows when they go past 5000%
-        high: "嘻嘻嘻嘻嘻嘻",              // Shows when they go past 1000%
+        extreme: "muhehehehehe",  // Shows when they go past 5000%
+        high: "嘻嘻嘻",              // Shows when they go past 1000%
         normal: "嘻嘻"                           // Shows when they go past 100%
     },
 
@@ -67,9 +67,9 @@ const CONFIG = {
     // Animation settings
     // Adjust these if you want faster/slower animations
     animations: {
-        floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
-        floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
-        bounceSpeed: "1.0s",            // Speed of bouncing animations (0.3-0.7s recommended)
+        floatDuration: "20s",           // How long it takes hearts to float up (10-20s recommended)
+        floatDistance: "70px",          // How far hearts move sideways (30-70px recommended)
+        bounceSpeed: "0.7s",            // Speed of bouncing animations (0.3-0.7s recommended)
         heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
