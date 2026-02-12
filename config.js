@@ -1,4 +1,4 @@
-/ ============================================
+// ============================================
 // 💝 CUSTOMIZE YOUR VALENTINE'S WEBSITE HERE 💝
 // ============================================
 
@@ -28,7 +28,7 @@ const CONFIG = {
             secretAnswer: "I don't like you, I love you! 🐹"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?\n （不可以点No噢）",                          // For the love meter
+            text: "How much do you love me?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next"                                         // Text for the next button
         },
@@ -42,16 +42,16 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "muhehehehehe",  // Shows when they go past 5000%
-        high: "嘻嘻嘻嘻嘻",              // Shows when they go past 1000%
-        normal: "嘻嘻"                           // Shows when they go past 100%
+        extreme: "muhehehehehehehe",  // Shows when they go past 5000%
+        high: "muhehehehe",              // Shows when they go past 1000%
+        normal: "muhehe"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Seens like I'm the luckiest red panda in the world! 🦝",
-        message: "Now come to 433 E 13th st, New York NY 10009 to get a big warm hug and a huge kiss!",
-        emojis: "👋👋"  // These will bounce around
+        message: "Now come to 433 E 13th st to get a big warm hug and a huge kiss!",
+        emojis: "👋🐹💋❤️🦝👋"  // These will bounce around
     },
 
     // Color scheme for the website
@@ -81,7 +81,7 @@ const CONFIG = {
         musicUrl: "https://res.cloudinary.com/dnqee27xv/video/upload/v1770879124/ING_Love-ingOfficial_Music_Video_tltmxi.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
-        volume: 0.2                        // Volume level (0.0 to 1.0)
+        volume: 0.1                        // Volume level (0.0 to 1.0)
     }
 };
 
