@@ -28,7 +28,7 @@ const CONFIG = {
             secretAnswer: "I don't like you, I love you! 🐹"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
+            text: "How much do you love me?\n （不可以点No噢）",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next"                                         // Text for the next button
         },
@@ -43,7 +43,7 @@ const CONFIG = {
     // They show up depending on how far they slide the meter
     loveMessages: {
         extreme: "muhehehehehe",  // Shows when they go past 5000%
-        high: "嘻嘻嘻",              // Shows when they go past 1000%
+        high: "嘻嘻嘻嘻嘻",              // Shows when they go past 1000%
         normal: "嘻嘻"                           // Shows when they go past 100%
     },
 
