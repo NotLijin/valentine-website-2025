@@ -14,7 +14,7 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '👋', '💗', '🐽'],  // Heart emojis
+        hearts: ['❤️', '👋', '💗', '🐽'，'🍎'],  // Heart emojis
         bears: ['🐹', '🦝']                       // Cute bear emojis
     },
 
@@ -22,18 +22,18 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me ?",                                    // First interaction
+            text: "Do you like me ?（不可以点No噢）",                               // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
             secretAnswer: "I don't like you, I love you! 🐹"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?\n （不可以点No噢）",                          // For the love meter
+            text: "How much do you love me?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🐹❤️🦝", // The big question!
+            text: "那么，Will you be my Valentine on February 14th, 2025? 🐹❤️🦝", // The big question!
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
@@ -44,13 +44,13 @@ const CONFIG = {
     loveMessages: {
         extreme: "muhehehehehe",  // Shows when they go past 5000%
         high: "嘻嘻嘻嘻嘻",              // Shows when they go past 1000%
-        normal: "嘻嘻"                           // Shows when they go past 100%
+        normal: "好耶"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Seens like I'm the luckiest red panda in the world! 🦝",
-        message: "Now come to 433 E 13th st, New York NY 10009 to get a big warm hug and a huge kiss!",
+        title: "Seens like I'm the luckiest red panda in the world!",
+        message: "Now come to 433 E 13th st, NYC to get a big warm hug and a huge kiss!",
         emojis: "👋👋"  // These will bounce around
     },
 
